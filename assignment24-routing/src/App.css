@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.nav{
+  position: fixed;
+  top:0;
+  left:0;
+  right: 2;
+  margin-right: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  width: 98%;
+  background-color: black;
+  color: white;
+  padding: 12px;
+}
+.nav ul{
+   margin-right: 22px;
+
+}
+
+.login{
+  background-color: white;
+  color: black;
+
+  position: fixed;
+    left:0;
+margin-bottom: 55px;
+    margin-left: 700px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 21px;
+}
+.login form{
+  padding: 12px;
+  border-radius: 21px;
+
+
+}
+
+.login form input{
+  background-color: white;
+  color: black;
+
+}
+.login button{
+  margin-top: 22px;
+}
+
+.dashboard{
+  background-color: white;
+  padding:22px;
+  border-radius: 22px;
+  color: black;
+}
